@@ -33,6 +33,7 @@ def detect_labels(photo, bucket):
 
 def lambda_handler(event, context):
     # TODO implement
+    print("***Hello from Github***!!")
     print("inside index-lambda!!")
     s3_info = event['Records'][0]['s3']
     bucket_name = s3_info['bucket']['name']
