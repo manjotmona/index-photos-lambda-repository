@@ -3,8 +3,6 @@ import boto3
 from botocore.vendored import requests
 import time
 
-#s3 = boto3.resource("s3")
-
 def detect_labels(photo, bucket):
     print("inside detect_labels")
     client=boto3.client('rekognition')
