@@ -3,6 +3,7 @@ import boto3
 from botocore.vendored import requests
 import time
 
+# demo
 def detect_labels(photo, bucket):
     print("Hello")
     print("inside detect_labels")
