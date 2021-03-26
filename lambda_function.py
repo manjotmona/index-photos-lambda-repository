@@ -4,6 +4,7 @@ from botocore.vendored import requests
 import time
 
 def detect_labels(photo, bucket):
+    print("Hello")
     print("inside detect_labels")
     client=boto3.client('rekognition')
     print("sending request to rekognition")
